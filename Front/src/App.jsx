@@ -1,11 +1,14 @@
 import React from 'react'
-import Practica from './Components/Practica/Practica'
+import Rutas from './Routers/Rutas'
+// import Viewpaciente from './Components/Pacientes/Viewpaciente'
+
 
 function App() {
   return (
-    <div>
-      <Practica />
-    </div>
+    <>
+      {/* <Viewpaciente /> */}
+      <Rutas></Rutas>
+    </>
   )
 }
 

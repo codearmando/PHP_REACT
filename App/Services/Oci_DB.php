@@ -12,8 +12,8 @@ class Oci_DB {
     public function Connection(){
 
         DEFINE('DB','PRUEBA');
-        DEFINE('USER','GABRIEL');
-        DEFINE('PASS','12345');
+        DEFINE('USER','FARMACIA_ALTO_COSTO');
+        DEFINE('PASS','1234567');
 
         $db = DB;
         $user =USER;

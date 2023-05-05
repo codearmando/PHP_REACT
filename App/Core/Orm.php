@@ -28,6 +28,16 @@ class Orm
             return $stm->fetchAll();
         }
     }
+    public function getSelectID($parameters = null, $condition = null, $valor = null)
+    {
+        if ($parameters != null && $condition != null && $valor != null) {
+            $sql = "SELECT $parameters FROM {$this->table} WHERE $condition = :dato ";
+            $stm = $this->bd->prepare($sql);
+            $stm->bindValue(":dato", $valor);
+            $stm->execute();
+            return $stm->fetch();
+        }
+    }
 
     public function PdoProcedure($procedure_name, $parameters, &$output)
     {

@@ -1,0 +1,8 @@
+body{
+    /* background: linear-gradient(120deg,#ffffff00,#ffffff00 62%,rgba(193, 19, 19, 0.488)62%,rgba(193, 19, 19, 0.488) 100%),
+         url(../Img/fondo-ivss.png) no-repeat ; */
+    background: url(../Img/fondo-ivss-red.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
